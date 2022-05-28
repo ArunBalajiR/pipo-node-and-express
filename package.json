@@ -1,0 +1,31 @@
+{
+  "name": "node_task",
+  "version": "1.0.0",
+  "description": "Node assignment task by ArunBalajiR",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArunBalajiR/pipo-node-and-express.git"
+  },
+  "author": "Arun Balaji R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArunBalajiR/pipo-node-and-express/issues"
+  },
+  "homepage": "https://github.com/ArunBalajiR/pipo-node-and-express#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2",
+    "unirest": "^0.6.0",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.23"
+  }
+}
